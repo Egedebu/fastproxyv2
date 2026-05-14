@@ -2,6 +2,7 @@
   "version": 2,
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/git", "destination": "/index.html" }
+    { "source": "/git", "destination": "/public/index.html" },
+    { "source": "/(.*)", "destination": "/public/$1" }
   ]
 }
