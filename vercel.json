@@ -1,9 +1,11 @@
 {
   "version": 2,
+  "public": true,
+  "cleanUrls": true,
   "rewrites": [
     {
       "source": "/git",
-      "destination": "/uv/service/index.html"
+      "destination": "/index.html"
     },
     {
       "source": "/(.*)",
